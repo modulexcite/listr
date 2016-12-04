@@ -37,7 +37,7 @@ class SimpleRenderer {
 		this._tasks = tasks;
 	}
 
-	get nonTTY() {
+	static get nonTTY() {
 		return true;
 	}
 
